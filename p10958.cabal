@@ -83,8 +83,8 @@ executable p10958
     import:           settings
     main-is:          Main.hs
     build-depends:
-        base ^>=4.20.2.0,
-        p10958
+        base ^>=4.20.2.0
+      , p10958
 
     hs-source-dirs:   app
     default-language: Haskell2010
@@ -96,5 +96,5 @@ test-suite p10958-test
     hs-source-dirs:   test
     main-is:          Main.hs
     build-depends:
-        base ^>=4.20.2.0,
-        p10958
+        base ^>=4.20.2.0
+      , p10958
