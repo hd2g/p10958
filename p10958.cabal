@@ -70,8 +70,7 @@ common settings
 library
     import:           settings
     exposed-modules:
-        MyLib
-      , Comb
+        Comb
       , Operator
       , Parser
       , Solve
