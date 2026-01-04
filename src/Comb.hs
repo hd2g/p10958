@@ -2,10 +2,6 @@ module Comb where
 
 import Prelude
 
--- import Operator
-
--- import Data.List (intercalate)
-
 operators :: [Char]
 operators = ['+', '-', '*', '/', '^', ' ']
 
