@@ -8,7 +8,6 @@ import Text.Megaparsec.Char
 import Text.Megaparsec.Char.Lexer qualified as L
 import Data.Void (Void)
 import Data.Text (Text)
--- import Data.Functor (void)
 
 import Operator
 
