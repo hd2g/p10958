@@ -8,6 +8,7 @@ import Data.Text qualified as T
 import Operator (eval)
 import Parser (parseExpr)
 
+-- REFACTOR: Replace type to Text
 solve :: [String] -> [Double]
 solve xs = eval <$> (E.rights $ map (parseExpr . T.pack) xs)
 
