@@ -71,6 +71,7 @@ library
     import:           settings
     exposed-modules:
         MyLib
+      , Comb
       , Operator
       , Parser
     build-depends:
