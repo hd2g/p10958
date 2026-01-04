@@ -18,6 +18,7 @@
               buildInputs = with pkgs; [
                 hpkgs.ghc
                 hpkgs.cabal-install
+                hpkgs.hoogle
               ];
             };
           };
