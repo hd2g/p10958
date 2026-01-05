@@ -15,6 +15,13 @@ data BinaryOp
   | Pow
   deriving (Show, Eq)
 
+showBinaryOp :: BinaryOp -> String
+showBinaryOp Add = "+"
+showBinaryOp Sub = "-"
+showBinaryOp Mul = "*"
+showBinaryOp Div = "/"
+showBinaryOp Pow = "^"
+
 data Expr
   = Number Double
   | Unary UnaryOp Expr
