@@ -13,4 +13,4 @@ solve :: [String] -> [Double]
 solve xs = eval <$> (E.rights $ map (parseExpr . T.pack) xs)
 
 found :: Double -> Bool
-found = (== 10968)
+found = (== 10958)
